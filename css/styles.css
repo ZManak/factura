@@ -1,8 +1,10 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
 }
 
-table{
+#table{
+    color: black;
     columns: 25%;
     background-color:white;
     border-style: solid;
@@ -39,3 +41,32 @@ td.number{
     background-color: silver;
 }
 
+/*GATOS*/
+p{
+    text-align: center;
+    color: crimson;
+}
+
+nav{
+    text-align: center;
+    color: rebeccapurple;
+}
+
+nav>ul>li{
+    display: inline-block;
+}
+
+section{
+    text-align: center;
+    color: crimson;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+img{
+    width: 500px;
+}
+
+video{
+    width: 500px;
+}
