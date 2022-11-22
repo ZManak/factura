@@ -13,30 +13,33 @@
         <table>
                   
             <tr>
-                
-                <th colspan="2">Invoice #XXXXX</th>
-                <th colspan="2">14 January 2025</th>
-                
+                <th colspan="3">Invoice #XXXXX</th>
+                <th colspan="1">14 January 2025</th>
             </tr>
              
-            
-            <tr aria-rowspan="7">
-                <td colspan="2">Pay to:<br> Acme Billing Co. <br>123 Main St. <br>Cityville</td>
-                <td colspan="2">Customer:<br>Jhon Smith<br>321 Willow Way<br>SE MA 54321</td>
+            <tr>
+                <td colspan="2"><b>Pay to:</b>
+                    Acme Billing Co.
+                    123 Main St.
+                    Cityville</td>
+                <td colspan="2"><b>Customer:</b>
+                    Jhon Smith
+                    321 Willow Way
+                    SE MA 54321</td>
             </tr>
 
-            <tr>
-                <td>Name/Description</td>
-                <td>Qty.</td>
-                <td>@</td>
-                <td>Cost</td>
+            <tr id="content">
+                <td><b>Name/Description</b></td>
+                <td><b>Qty.</b></td>
+                <td><b>@</b></td>
+                <td><b>Cost</b></td>
             </tr>
 
             <tr>
                 <td>Paperclips</td>
-                <td>1000</td>
-                <td>0.01</td>
-                <td>10.00</td>
+                <td class="number">1000</td>
+                <td class="number">0.01</td>
+                <td class="number">10.00</td>
             </tr>
 
             <tr>
@@ -47,18 +50,18 @@
             </tr>
 
             <tr>
-                <td><b>Subtotal</b></td>
+                <td bgcolor="silver"; colspan="3"><b>Subtotal</b></td>
                 <td>110.00</td>
             </tr>
 
             <tr>
-                <td><b>Tax</b></td>
+                <td bgcolor="silver"; colspan="2"><b>Tax</b></td>
                 <td>8%</td>
                 <td>8.80</td>
             </tr>
 
             <tr>
-                <td><b>Grand Total</b></td>
+                <td bgcolor="silver"; colspan="3";><b>Grand Total</b></td>
                 <td>118.80</td>
             </tr>
         </table>
